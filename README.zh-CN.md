@@ -72,6 +72,15 @@
 - **可插拔 TTS**：provider-agnostic 音频 runner，**内置 2 个 provider**（MiniMax `mmx-cli` + OpenAI TTS via curl），并附带三函数契约 + ElevenLabs / edge-tts / Azure / Google Cloud / macOS `say` 的现成代码片段
 - 脚手架产出 Vite + React + TypeScript 项目，并附带舞台原语与录屏指南
 
+<table>
+<tr>
+<td align="center" width="25%"><a href="./skills/web-video-presentation/README.zh-CN.md#主题画廊"><img src="./dist/imgs/web-video/midnight-press.png" alt="midnight-press 预览" /></a><br /><sub><code>midnight-press</code><br />开发者教程</sub></td>
+<td align="center" width="25%"><a href="./skills/web-video-presentation/README.zh-CN.md#主题画廊"><img src="./dist/imgs/web-video/chalk-garden.png" alt="chalk-garden 预览" /></a><br /><sub><code>chalk-garden</code><br />教学课堂</sub></td>
+<td align="center" width="25%"><a href="./skills/web-video-presentation/README.zh-CN.md#主题画廊"><img src="./dist/imgs/web-video/newsroom.png" alt="newsroom 预览" /></a><br /><sub><code>newsroom</code><br />纪录片 / 报道</sub></td>
+<td align="center" width="25%"><a href="./skills/web-video-presentation/README.zh-CN.md#主题画廊"><img src="./dist/imgs/web-video/swiss-ikb.png" alt="swiss-ikb 预览" /></a><br /><sub><code>swiss-ikb</code><br />信息图</sub></td>
+</tr>
+</table>
+
 <a href="./skills/web-video-presentation/README.zh-CN.md#主题画廊"><img src="./dist/imgs/web-video/gallery.png" alt="web-video-presentation 主题画廊 —— 23 套内置主题一览" /></a>
 
 <sub>↑ 23 套主题一览 —— <a href="./skills/web-video-presentation/README.zh-CN.md#主题画廊"><b>打开完整画廊</b></a>，含真实预览图、设计签名与适合场景标签。</sub>

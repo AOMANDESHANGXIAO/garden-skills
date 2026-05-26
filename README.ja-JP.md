@@ -72,6 +72,15 @@
 - **プラガブル TTS**：プロバイダー非依存の音声ランナー。**2 つのビルトインプロバイダー**（MiniMax `mmx-cli` + curl 経由の OpenAI TTS）を同梱し、ElevenLabs / edge-tts / Azure / Google Cloud / macOS `say` 用のコピペ可能なスニペットも付属
 - 再利用可能なステージプリミティブと録画ガイダンスを備えた Vite + React + TypeScript プロジェクトのスキャフォールド
 
+<table>
+<tr>
+<td align="center" width="25%"><a href="./skills/web-video-presentation/README.md#theme-gallery"><img src="./dist/imgs/web-video/midnight-press.png" alt="midnight-press プレビュー" /></a><br /><sub><code>midnight-press</code><br />開発者チュートリアル</sub></td>
+<td align="center" width="25%"><a href="./skills/web-video-presentation/README.md#theme-gallery"><img src="./dist/imgs/web-video/chalk-garden.png" alt="chalk-garden プレビュー" /></a><br /><sub><code>chalk-garden</code><br />教室での解説</sub></td>
+<td align="center" width="25%"><a href="./skills/web-video-presentation/README.md#theme-gallery"><img src="./dist/imgs/web-video/newsroom.png" alt="newsroom プレビュー" /></a><br /><sub><code>newsroom</code><br />ドキュメンタリー報道</sub></td>
+<td align="center" width="25%"><a href="./skills/web-video-presentation/README.md#theme-gallery"><img src="./dist/imgs/web-video/swiss-ikb.png" alt="swiss-ikb プレビュー" /></a><br /><sub><code>swiss-ikb</code><br />インフォグラフィック</sub></td>
+</tr>
+</table>
+
 <a href="./skills/web-video-presentation/README.md#theme-gallery"><img src="./dist/imgs/web-video/gallery.png" alt="web-video-presentation のテーマギャラリー — 23 種類のビルトインテーマ" /></a>
 
 <sub>↑ 23 種類のテーマを一望 — <a href="./skills/web-video-presentation/README.md#theme-gallery"><b>完全なギャラリーを開く</b></a>と、ライブ 16:9 プレビュー、デザインシグネチャ、用途タグ付きで閲覧できます。</sub>

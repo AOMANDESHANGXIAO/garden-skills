@@ -72,6 +72,15 @@ Highlights:
 - **Pluggable TTS** — provider-agnostic audio runner; ships **two built-in providers** (MiniMax `mmx-cli` + OpenAI TTS via curl) plus a contract + ready-to-paste snippets for ElevenLabs / edge-tts / Azure / Google Cloud / macOS `say`
 - Scaffolded Vite + React + TypeScript project with reusable stage primitives and recording guidance
 
+<table>
+<tr>
+<td align="center" width="25%"><a href="./skills/web-video-presentation/README.md#theme-gallery"><img src="./dist/imgs/web-video/midnight-press.png" alt="midnight-press preview" /></a><br /><sub><code>midnight-press</code><br />developer tutorials</sub></td>
+<td align="center" width="25%"><a href="./skills/web-video-presentation/README.md#theme-gallery"><img src="./dist/imgs/web-video/chalk-garden.png" alt="chalk-garden preview" /></a><br /><sub><code>chalk-garden</code><br />classroom explainers</sub></td>
+<td align="center" width="25%"><a href="./skills/web-video-presentation/README.md#theme-gallery"><img src="./dist/imgs/web-video/newsroom.png" alt="newsroom preview" /></a><br /><sub><code>newsroom</code><br />documentary reporting</sub></td>
+<td align="center" width="25%"><a href="./skills/web-video-presentation/README.md#theme-gallery"><img src="./dist/imgs/web-video/swiss-ikb.png" alt="swiss-ikb preview" /></a><br /><sub><code>swiss-ikb</code><br />info graphics</sub></td>
+</tr>
+</table>
+
 <a href="./skills/web-video-presentation/README.md#theme-gallery"><img src="./dist/imgs/web-video/gallery.png" alt="Theme gallery — 23 built-in themes for web-video-presentation" /></a>
 
 <sub>↑ All 23 themes at a glance — <a href="./skills/web-video-presentation/README.md#theme-gallery"><b>open the full gallery</b></a> for live 16:9 previews, design signatures, and best-for tags.</sub>
