@@ -1,0 +1,921 @@
+[
+  {
+    "globalStep": 0,
+    "chapterId": "coldopen",
+    "stepIdx": 0,
+    "stepText": "你有没有想过一个问题：一瓶矿泉水，为什么能和一本书交换？",
+    "startTime": 0,
+    "endTime": 6.3,
+    "duration": 6.3,
+    "srtStart": 0,
+    "srtEnd": 1,
+    "srtTexts": [
+      "你有没有想过一个问题",
+      "一瓶矿泉水为什么能和一本书交换"
+    ]
+  },
+  {
+    "globalStep": 1,
+    "chapterId": "coldopen",
+    "stepIdx": 1,
+    "stepText": "今天我们来分析商品。这个你每天都会接触到的东西，藏着政治经济学的核心秘密。",
+    "startTime": 6.3,
+    "endTime": 14.81,
+    "duration": 8.510000000000002,
+    "srtStart": 2,
+    "srtEnd": 4,
+    "srtTexts": [
+      "今天我们来分析商品",
+      "这个你每天都会接触到的东西",
+      "藏着政治经济学的核心秘密"
+    ]
+  },
+  {
+    "globalStep": 2,
+    "chapterId": "use-value",
+    "stepIdx": 0,
+    "stepText": "首先，一个东西要能叫商品，必须有用。",
+    "startTime": 14.81,
+    "endTime": 19.82,
+    "duration": 5.01,
+    "srtStart": 5,
+    "srtEnd": 6,
+    "srtTexts": [
+      "首先，一个东西要能叫商品",
+      "必须有用"
+    ]
+  },
+  {
+    "globalStep": 3,
+    "chapterId": "use-value",
+    "stepIdx": 1,
+    "stepText": "你饿了，米饭有用。你渴了，水有用。这叫使用价值。",
+    "startTime": 19.82,
+    "endTime": 27.09,
+    "duration": 7.27,
+    "srtStart": 7,
+    "srtEnd": 9,
+    "srtTexts": [
+      "你饿了米饭有用",
+      "你渴了水有用",
+      "这叫使用价值"
+    ]
+  },
+  {
+    "globalStep": 4,
+    "chapterId": "use-value",
+    "stepIdx": 2,
+    "stepText": "没有使用价值的东西，就不是商品。这是第一个条件。",
+    "startTime": 27.09,
+    "endTime": 32.622,
+    "duration": 5.532,
+    "srtStart": 10,
+    "srtEnd": 11,
+    "srtTexts": [
+      "没有使用价值的东西就不是商品",
+      "这是第一个条件"
+    ]
+  },
+  {
+    "globalStep": 5,
+    "chapterId": "use-value",
+    "stepIdx": 3,
+    "stepText": "但有意思的是，使用价值是会变的。",
+    "startTime": 32.622,
+    "endTime": 36.56,
+    "duration": 3.9380000000000024,
+    "srtStart": 12,
+    "srtEnd": 13,
+    "srtTexts": [
+      "但有意思的是",
+      "使用价值是会变的"
+    ]
+  },
+  {
+    "globalStep": 6,
+    "chapterId": "use-value",
+    "stepIdx": 4,
+    "stepText": "古代人看到石油：这什么怪液体？",
+    "startTime": 36.56,
+    "endTime": 40.15,
+    "duration": 3.5899999999999963,
+    "srtStart": 14,
+    "srtEnd": 15,
+    "srtTexts": [
+      "古代人看到石油",
+      "这什么怪液体"
+    ]
+  },
+  {
+    "globalStep": 7,
+    "chapterId": "use-value",
+    "stepIdx": 5,
+    "stepText": "到了大工业时代，人类才发现石油是工业的血液。",
+    "startTime": 40.15,
+    "endTime": 45.385,
+    "duration": 5.234999999999999,
+    "srtStart": 16,
+    "srtEnd": 17,
+    "srtTexts": [
+      "到了大工业时代",
+      "人类才发现石油是工业的血液"
+    ]
+  },
+  {
+    "globalStep": 8,
+    "chapterId": "use-value",
+    "stepIdx": 6,
+    "stepText": "使用价值有历史性。今天没用的东西，以后可能大用。今天有用的，以后也可能失去使用价值。",
+    "startTime": 45.385,
+    "endTime": 55.542,
+    "duration": 10.157000000000004,
+    "srtStart": 18,
+    "srtEnd": 22,
+    "srtTexts": [
+      "使用价值有历史性",
+      "今天没用的东西",
+      "以后可能大用",
+      "今天有用的",
+      "以后也可能失去使用价值"
+    ]
+  },
+  {
+    "globalStep": 9,
+    "chapterId": "why-exchange",
+    "stepIdx": 0,
+    "stepText": "但光有使用价值还不够。要成为商品，必须参与交换。",
+    "startTime": 55.542,
+    "endTime": 61.43,
+    "duration": 5.887999999999998,
+    "srtStart": 23,
+    "srtEnd": 25,
+    "srtTexts": [
+      "但光有使用价值还不够",
+      "要成为商品",
+      "必须参与交换"
+    ]
+  },
+  {
+    "globalStep": 10,
+    "chapterId": "why-exchange",
+    "stepIdx": 1,
+    "stepText": "古代自耕农，种地自己吃自己用。他生产的只是劳动产品，不是商品。",
+    "startTime": 61.43,
+    "endTime": 65.317,
+    "duration": 3.8869999999999933,
+    "srtStart": 26,
+    "srtEnd": 27,
+    "srtTexts": [
+      "古代自耕农种地",
+      "自己吃、自己用"
+    ]
+  },
+  {
+    "globalStep": 11,
+    "chapterId": "why-exchange",
+    "stepIdx": 2,
+    "stepText": "商品是为别人生产的。那么问题来了：20斤大米为什么能和10尺布交换？",
+    "startTime": 69.307,
+    "endTime": 77.242,
+    "duration": 7.935000000000002,
+    "srtStart": 30,
+    "srtEnd": 32,
+    "srtTexts": [
+      "商品是为别人生产的",
+      "那么问题来了",
+      "20斤大米为什么能和十尺布交换"
+    ]
+  },
+  {
+    "globalStep": 12,
+    "chapterId": "why-exchange",
+    "stepIdx": 3,
+    "stepText": "是因为使用价值相同吗？显然不是。",
+    "startTime": 77.242,
+    "endTime": 81.1,
+    "duration": 3.85799999999999,
+    "srtStart": 33,
+    "srtEnd": 34,
+    "srtTexts": [
+      "是因为使用价值相同吗",
+      "显然不是"
+    ]
+  },
+  {
+    "globalStep": 13,
+    "chapterId": "why-exchange",
+    "stepIdx": 4,
+    "stepText": "大米填肚子，布遮身体，满足的需求完全不同。这不是它们能交换的原因。",
+    "startTime": 81.1,
+    "endTime": 89.22,
+    "duration": 8.120000000000005,
+    "srtStart": 35,
+    "srtEnd": 37,
+    "srtTexts": [
+      "大米填肚子不遮身体",
+      "满足的需求完全不同",
+      "这不是他们能交换的原因"
+    ]
+  },
+  {
+    "globalStep": 14,
+    "chapterId": "why-exchange",
+    "stepIdx": 5,
+    "stepText": "各商品内部，一定有一个本质上相同的东西。",
+    "startTime": 89.22,
+    "endTime": 93.702,
+    "duration": 4.481999999999999,
+    "srtStart": 38,
+    "srtEnd": 38,
+    "srtTexts": [
+      "各商品内部一定有一个本质上相同的东西"
+    ]
+  },
+  {
+    "globalStep": 15,
+    "chapterId": "why-exchange",
+    "stepIdx": 6,
+    "stepText": "这个东西就是：它们都是人类劳动的产品。",
+    "startTime": 93.702,
+    "endTime": 98.05,
+    "duration": 4.347999999999999,
+    "srtStart": 39,
+    "srtEnd": 39,
+    "srtTexts": [
+      "这个东西就是它们都是人类劳动的产品"
+    ]
+  },
+  {
+    "globalStep": 16,
+    "chapterId": "why-exchange",
+    "stepIdx": 7,
+    "stepText": "商品能交换，是因为里面凝结了人类无差别的劳动。",
+    "startTime": 98.05,
+    "endTime": 103.057,
+    "duration": 5.007000000000005,
+    "srtStart": 40,
+    "srtEnd": 41,
+    "srtTexts": [
+      "商品能交换",
+      "是因为里面凝结了人类无差别的劳动"
+    ]
+  },
+  {
+    "globalStep": 17,
+    "chapterId": "labor-duality",
+    "stepIdx": 0,
+    "stepText": "要理解这句话，我们来分析一下人类劳动的特点。",
+    "startTime": 103.057,
+    "endTime": 107.74,
+    "duration": 4.682999999999993,
+    "srtStart": 42,
+    "srtEnd": 43,
+    "srtTexts": [
+      "要理解这句话",
+      "我们来分析一下人类劳动的特点"
+    ]
+  },
+  {
+    "globalStep": 18,
+    "chapterId": "labor-duality",
+    "stepIdx": 1,
+    "stepText": "劳动方式千差万别。种大米要播种、施肥、除虫、收获。织布是完全不同的操作。",
+    "startTime": 107.74,
+    "endTime": 117.31,
+    "duration": 9.570000000000007,
+    "srtStart": 44,
+    "srtEnd": 45,
+    "srtTexts": [
+      "劳动方式千差万别",
+      "种大米要播种、施肥、除虫、收获、织布是完全不同的操作"
+    ]
+  },
+  {
+    "globalStep": 19,
+    "chapterId": "labor-duality",
+    "stepIdx": 2,
+    "stepText": "不同的具体劳动，生产不同的使用价值。",
+    "startTime": 117.31,
+    "endTime": 121.12,
+    "duration": 3.8100000000000023,
+    "srtStart": 46,
+    "srtEnd": 47,
+    "srtTexts": [
+      "不同的具体劳动生产",
+      "不同的使用价值"
+    ]
+  },
+  {
+    "globalStep": 20,
+    "chapterId": "labor-duality",
+    "stepIdx": 3,
+    "stepText": "但抛开具体操作形式，从抽象层面看：所有劳动都是人类脑力和体力的消耗。",
+    "startTime": 121.12,
+    "endTime": 128.879,
+    "duration": 7.758999999999986,
+    "srtStart": 48,
+    "srtEnd": 50,
+    "srtTexts": [
+      "但抛开具体操作形式",
+      "从抽象层面看",
+      "所有劳动都是人类脑力和体力的消耗"
+    ]
+  },
+  {
+    "globalStep": 21,
+    "chapterId": "labor-duality",
+    "stepIdx": 4,
+    "stepText": "在这个抽象层面上，各种劳动没有本质区别。",
+    "startTime": 128.879,
+    "endTime": 133.74,
+    "duration": 4.861000000000018,
+    "srtStart": 51,
+    "srtEnd": 52,
+    "srtTexts": [
+      "在这个抽象层面上",
+      "各种劳动没有本质区别"
+    ]
+  },
+  {
+    "globalStep": 22,
+    "chapterId": "labor-duality",
+    "stepIdx": 5,
+    "stepText": "有人会问了：复杂劳动和简单劳动一样吗？",
+    "startTime": 133.74,
+    "endTime": 138.45,
+    "duration": 4.7099999999999795,
+    "srtStart": 53,
+    "srtEnd": 54,
+    "srtTexts": [
+      "有人会问了",
+      "复杂劳动和简单劳动一样吗"
+    ]
+  },
+  {
+    "globalStep": 23,
+    "chapterId": "labor-duality",
+    "stepIdx": 6,
+    "stepText": "简单劳动，是不用训练就能干的事。复杂劳动呢，是简单劳动的排列组合。",
+    "startTime": 138.45,
+    "endTime": 145.95,
+    "duration": 7.5,
+    "srtStart": 55,
+    "srtEnd": 57,
+    "srtTexts": [
+      "简单劳动是不用训练就能干的事",
+      "复杂劳动呢",
+      "是简单劳动的排列组合"
+    ]
+  },
+  {
+    "globalStep": 24,
+    "chapterId": "labor-duality",
+    "stepIdx": 7,
+    "stepText": "比如写程序很复杂，但拆开看，就是判断、循环、变量这些简单操作的组合。",
+    "startTime": 145.95,
+    "endTime": 154.26,
+    "duration": 8.310000000000002,
+    "srtStart": 58,
+    "srtEnd": 60,
+    "srtTexts": [
+      "比如写程序很复杂",
+      "但拆开看就是判断循环变量",
+      "这些简单操作的组合"
+    ]
+  },
+  {
+    "globalStep": 25,
+    "chapterId": "labor-duality",
+    "stepIdx": 8,
+    "stepText": "复杂劳动可以还原为简单劳动，进而还原为脑力和体力的消耗。",
+    "startTime": 154.26,
+    "endTime": 160.95,
+    "duration": 6.689999999999998,
+    "srtStart": 61,
+    "srtEnd": 62,
+    "srtTexts": [
+      "复杂劳动可以还原为简单劳动",
+      "进而还原为脑力和体力的消耗"
+    ]
+  },
+  {
+    "globalStep": 26,
+    "chapterId": "labor-duality",
+    "stepIdx": 9,
+    "stepText": "总结一下：具体劳动生产使用价值，抽象劳动凝结为价值，价值表现为交换价值。",
+    "startTime": 160.95,
+    "endTime": 171.41,
+    "duration": 10.460000000000008,
+    "srtStart": 63,
+    "srtEnd": 65,
+    "srtTexts": [
+      "总结一下具体劳动生产使用价值",
+      "抽象劳动凝结为价值",
+      "价值表现为交换价值"
+    ]
+  },
+  {
+    "globalStep": 27,
+    "chapterId": "value-quantity",
+    "stepIdx": 0,
+    "stepText": "下一个问题：商品为什么能按一定比例交换？x斤大米 = y尺布。",
+    "startTime": 171.41,
+    "endTime": 176.05,
+    "duration": 4.640000000000015,
+    "srtStart": 66,
+    "srtEnd": 67,
+    "srtTexts": [
+      "下一个问题",
+      "商品为什么能按一定比例交换"
+    ]
+  },
+  {
+    "globalStep": 28,
+    "chapterId": "value-quantity",
+    "stepIdx": 1,
+    "stepText": "能按比例交换，说明无差别劳动可以量化为一定的量。",
+    "startTime": 178.45,
+    "endTime": 183.94,
+    "duration": 5.490000000000009,
+    "srtStart": 69,
+    "srtEnd": 70,
+    "srtTexts": [
+      "能按比例交换",
+      "说明无差别劳动可以量化为一定的量"
+    ]
+  },
+  {
+    "globalStep": 29,
+    "chapterId": "value-quantity",
+    "stepIdx": 2,
+    "stepText": "量化的尺度是什么？时间。没有劳动不消耗时间。",
+    "startTime": 183.94,
+    "endTime": 189.69,
+    "duration": 5.75,
+    "srtStart": 71,
+    "srtEnd": 73,
+    "srtTexts": [
+      "量化的尺度是什么",
+      "时间",
+      "没有劳动不消耗时间"
+    ]
+  },
+  {
+    "globalStep": 30,
+    "chapterId": "value-quantity",
+    "stepIdx": 3,
+    "stepText": "所以用社会必要劳动时间来衡量商品的价值。",
+    "startTime": 189.69,
+    "endTime": 194.357,
+    "duration": 4.667000000000002,
+    "srtStart": 74,
+    "srtEnd": 74,
+    "srtTexts": [
+      "所以用社会必要劳动时间来衡量商品的价值"
+    ]
+  },
+  {
+    "globalStep": 31,
+    "chapterId": "value-quantity",
+    "stepIdx": 4,
+    "stepText": "马克思说：社会必要劳动时间，是用社会现有的标准生产条件，用社会平均的劳动熟练程度和强度，生产一个使用价值所必要的劳动时间。",
+    "startTime": 194.357,
+    "endTime": 206.957,
+    "duration": 12.599999999999994,
+    "srtStart": 75,
+    "srtEnd": 79,
+    "srtTexts": [
+      "马克思说",
+      "社会必要劳动时间",
+      "是用社会现有的标准生产条件",
+      "用社会平均的劳动熟练程度和强度",
+      "生产一个使用价值所必要的劳动时间"
+    ]
+  },
+  {
+    "globalStep": 32,
+    "chapterId": "value-quantity",
+    "stepIdx": 5,
+    "stepText": "如果全社会改进了生产资料，效率上升了，每件商品的价值就下降。",
+    "startTime": 206.957,
+    "endTime": 213.455,
+    "duration": 6.498000000000019,
+    "srtStart": 80,
+    "srtEnd": 82,
+    "srtTexts": [
+      "如果全社会改进了生产资料",
+      "效率上升了",
+      "每件商品的价值就下降"
+    ]
+  },
+  {
+    "globalStep": 33,
+    "chapterId": "value-quantity",
+    "stepIdx": 6,
+    "stepText": "反过来，自然灾害让效率下降，商品价值就上升。",
+    "startTime": 213.455,
+    "endTime": 218.74,
+    "duration": 5.284999999999997,
+    "srtStart": 83,
+    "srtEnd": 85,
+    "srtTexts": [
+      "反过来",
+      "自然灾害让效率下降",
+      "商品价值就上升"
+    ]
+  },
+  {
+    "globalStep": 34,
+    "chapterId": "value-quantity",
+    "stepIdx": 7,
+    "stepText": "但注意：抽象劳动并非在任何时候都形成价值。",
+    "startTime": 218.74,
+    "endTime": 223.82,
+    "duration": 5.079999999999984,
+    "srtStart": 86,
+    "srtEnd": 86,
+    "srtTexts": [
+      "但注意，抽象劳动并非在任何时候都形成价值"
+    ]
+  },
+  {
+    "globalStep": 35,
+    "chapterId": "value-quantity",
+    "stepIdx": 8,
+    "stepText": "只有在商品生产条件下才是。原始公社时期，产品共享不交换，抽象劳动就不形成价值。",
+    "startTime": 223.82,
+    "endTime": 233.445,
+    "duration": 9.625,
+    "srtStart": 87,
+    "srtEnd": 89,
+    "srtTexts": [
+      "只有在商品生产条件下才是原始公社时期",
+      "产品共享不交换",
+      "抽象劳动就不形成价值"
+    ]
+  },
+  {
+    "globalStep": 36,
+    "chapterId": "value-quantity",
+    "stepIdx": 9,
+    "stepText": "以上是马克思主义劳动价值论的基本观点。",
+    "startTime": 233.445,
+    "endTime": 237.62,
+    "duration": 4.175000000000011,
+    "srtStart": 90,
+    "srtEnd": 90,
+    "srtTexts": [
+      "以上是马克思主义劳动价值论的基本观点"
+    ]
+  },
+  {
+    "globalStep": 37,
+    "chapterId": "value-contradiction",
+    "stepIdx": 0,
+    "stepText": "现在来看使用价值和价值的关系。",
+    "startTime": 238.66,
+    "endTime": 242.12,
+    "duration": 3.460000000000008,
+    "srtStart": 91,
+    "srtEnd": 91,
+    "srtTexts": [
+      "现在来看使用价值和价值的关系"
+    ]
+  },
+  {
+    "globalStep": 38,
+    "chapterId": "value-contradiction",
+    "stepIdx": 1,
+    "stepText": "它们首先是统一的。使用价值是价值的物质承担者。",
+    "startTime": 242.12,
+    "endTime": 247.9,
+    "duration": 5.780000000000001,
+    "srtStart": 92,
+    "srtEnd": 93,
+    "srtTexts": [
+      "他们首先是统一的使用价值",
+      "是价值的物质承担者"
+    ]
+  },
+  {
+    "globalStep": 39,
+    "chapterId": "value-contradiction",
+    "stepIdx": 2,
+    "stepText": "一个没用的东西，花了再多劳动也是白费。",
+    "startTime": 247.9,
+    "endTime": 252.075,
+    "duration": 4.174999999999983,
+    "srtStart": 94,
+    "srtEnd": 95,
+    "srtTexts": [
+      "一个没用的东西",
+      "花了再多劳动也是白费"
+    ]
+  },
+  {
+    "globalStep": 40,
+    "chapterId": "value-contradiction",
+    "stepIdx": 3,
+    "stepText": "有意思的是：每个商品的价值，必须通过其他商品的使用价值才能表现出来。",
+    "startTime": 252.075,
+    "endTime": 259.299,
+    "duration": 7.2239999999999895,
+    "srtStart": 96,
+    "srtEnd": 99,
+    "srtTexts": [
+      "有意思的是",
+      "每个商品的价值",
+      "必须通过其他商品的使用价值",
+      "才能表现出来"
+    ]
+  },
+  {
+    "globalStep": 41,
+    "chapterId": "value-contradiction",
+    "stepIdx": 4,
+    "stepText": "就像人一样，每个人必须通过别人才认识自己。",
+    "startTime": 259.299,
+    "endTime": 264.37,
+    "duration": 5.071000000000026,
+    "srtStart": 100,
+    "srtEnd": 101,
+    "srtTexts": [
+      "就像人一样",
+      "每个人必须通过别人才认识自己"
+    ]
+  },
+  {
+    "globalStep": 42,
+    "chapterId": "value-contradiction",
+    "stepIdx": 5,
+    "stepText": "但使用价值和价值又是矛盾的。",
+    "startTime": 264.37,
+    "endTime": 267.415,
+    "duration": 3.045000000000016,
+    "srtStart": 102,
+    "srtEnd": 102,
+    "srtTexts": [
+      "但使用价值和价值又是矛盾的"
+    ]
+  },
+  {
+    "globalStep": 43,
+    "chapterId": "value-contradiction",
+    "stepIdx": 6,
+    "stepText": "生产者生产商品，不是为了使用价值，而是为了价值。",
+    "startTime": 267.415,
+    "endTime": 272.81,
+    "duration": 5.394999999999982,
+    "srtStart": 103,
+    "srtEnd": 104,
+    "srtTexts": [
+      "生产者生产商品不是为了使用价值",
+      "而是为了价值"
+    ]
+  },
+  {
+    "globalStep": 44,
+    "chapterId": "value-contradiction",
+    "stepIdx": 7,
+    "stepText": "他生产使用价值，只是为了换到价值。",
+    "startTime": 272.81,
+    "endTime": 276.862,
+    "duration": 4.052000000000021,
+    "srtStart": 105,
+    "srtEnd": 105,
+    "srtTexts": [
+      "他生产使用价值只是为了换到价值"
+    ]
+  },
+  {
+    "globalStep": 45,
+    "chapterId": "value-contradiction",
+    "stepIdx": 8,
+    "stepText": "所以一件商品不能同时被一个人取得使用价值又取得价值。",
+    "startTime": 276.862,
+    "endTime": 283.035,
+    "duration": 6.173000000000002,
+    "srtStart": 106,
+    "srtEnd": 107,
+    "srtTexts": [
+      "所以一件商品不能同时被一个人取得使用价值",
+      "又取得价值"
+    ]
+  },
+  {
+    "globalStep": 46,
+    "chapterId": "value-contradiction",
+    "stepIdx": 9,
+    "stepText": "要么消费它，要么卖掉它。这是商品内部使用价值和价值的矛盾。",
+    "startTime": 283.035,
+    "endTime": 289.817,
+    "duration": 6.781999999999982,
+    "srtStart": 108,
+    "srtEnd": 110,
+    "srtTexts": [
+      "要么消费它",
+      "要么卖掉它",
+      "这是商品内部使用价值和价值的矛盾"
+    ]
+  },
+  {
+    "globalStep": 47,
+    "chapterId": "capitalist-crisis",
+    "stepIdx": 0,
+    "stepText": "这个内部矛盾，就是资本主义社会的基本矛盾。",
+    "startTime": 289.817,
+    "endTime": 294.295,
+    "duration": 4.478000000000009,
+    "srtStart": 111,
+    "srtEnd": 111,
+    "srtTexts": [
+      "这个内部矛盾就是资本主义社会的基本矛盾"
+    ]
+  },
+  {
+    "globalStep": 48,
+    "chapterId": "capitalist-crisis",
+    "stepIdx": 1,
+    "stepText": "资本家控制生产资料，追求的是价值，不是使用价值。",
+    "startTime": 294.295,
+    "endTime": 299.825,
+    "duration": 5.529999999999973,
+    "srtStart": 112,
+    "srtEnd": 114,
+    "srtTexts": [
+      "资本家控制生产资料",
+      "追求的是价值",
+      "不是使用价值"
+    ]
+  },
+  {
+    "globalStep": 49,
+    "chapterId": "capitalist-crisis",
+    "stepIdx": 2,
+    "stepText": "社会生产的方向是赚更多钱，不是满足人们的需要。这是盲目性和逐利性。",
+    "startTime": 299.825,
+    "endTime": 308.06,
+    "duration": 8.235000000000014,
+    "srtStart": 115,
+    "srtEnd": 117,
+    "srtTexts": [
+      "社会生产的方向是赚更多钱",
+      "不是满足人们的需要",
+      "这是盲目性和逐利性"
+    ]
+  },
+  {
+    "globalStep": 50,
+    "chapterId": "capitalist-crisis",
+    "stepIdx": 3,
+    "stepText": "结果呢？生产出来的商品根本不能被全部消费。",
+    "startTime": 308.06,
+    "endTime": 313.497,
+    "duration": 5.437000000000012,
+    "srtStart": 118,
+    "srtEnd": 119,
+    "srtTexts": [
+      "结果呢",
+      "生产出来的商品根本不能被全部消费"
+    ]
+  },
+  {
+    "globalStep": 51,
+    "chapterId": "capitalist-crisis",
+    "stepIdx": 4,
+    "stepText": "人们需要使用价值，但社会以价值为方向生产。资本家盲目扩大再生产。",
+    "startTime": 313.497,
+    "endTime": 320.935,
+    "duration": 7.437999999999988,
+    "srtStart": 120,
+    "srtEnd": 122,
+    "srtTexts": [
+      "人们需要使用价值",
+      "但社会以价值为方向生产",
+      "资本家盲目扩大再生产"
+    ]
+  },
+  {
+    "globalStep": 52,
+    "chapterId": "capitalist-crisis",
+    "stepIdx": 5,
+    "stepText": "商品卖不掉，价值实现不了，资本周转就断了。",
+    "startTime": 320.935,
+    "endTime": 326.23,
+    "duration": 5.295000000000016,
+    "srtStart": 123,
+    "srtEnd": 125,
+    "srtTexts": [
+      "商品卖不掉",
+      "价值实现不了",
+      "资本周转就断了"
+    ]
+  },
+  {
+    "globalStep": 53,
+    "chapterId": "capitalist-crisis",
+    "stepIdx": 6,
+    "stepText": "裁员，没工资，更没钱消费。这就是生产过剩危机。",
+    "startTime": 326.23,
+    "endTime": 332.49,
+    "duration": 6.259999999999991,
+    "srtStart": 126,
+    "srtEnd": 127,
+    "srtTexts": [
+      "裁员没工资更没钱消费",
+      "这就是生产过剩危机"
+    ]
+  },
+  {
+    "globalStep": 54,
+    "chapterId": "capitalist-crisis",
+    "stepIdx": 7,
+    "stepText": "加工资、堆福利，也许能缓解。但只要生产以盲目追逐价值为出发点，矛盾就无解。",
+    "startTime": 332.49,
+    "endTime": 341.74,
+    "duration": 9.25,
+    "srtStart": 128,
+    "srtEnd": 130,
+    "srtTexts": [
+      "加工资堆福利也许能缓解",
+      "但只要生产以盲目追逐价值为出发点",
+      "矛盾就无解"
+    ]
+  },
+  {
+    "globalStep": 55,
+    "chapterId": "capitalist-crisis",
+    "stepIdx": 8,
+    "stepText": "资本主义生产方式的矛盾，无法通过自身改良解决。",
+    "startTime": 341.74,
+    "endTime": 347.172,
+    "duration": 5.432000000000016,
+    "srtStart": 131,
+    "srtEnd": 132,
+    "srtTexts": [
+      "资本主义生产方式的矛盾",
+      "无法通过自身改良解决"
+    ]
+  },
+  {
+    "globalStep": 56,
+    "chapterId": "conclusion",
+    "stepIdx": 0,
+    "stepText": "从以上分析可以看出：人们在交换中交换的不是物本身，而是包含在物中的劳动。",
+    "startTime": 347.172,
+    "endTime": 355.555,
+    "duration": 8.382999999999981,
+    "srtStart": 133,
+    "srtEnd": 135,
+    "srtTexts": [
+      "从以上分析可以看出",
+      "人们在交换中交换的不是物本身",
+      "而是包含在物中的劳动"
+    ]
+  },
+  {
+    "globalStep": 57,
+    "chapterId": "conclusion",
+    "stepIdx": 1,
+    "stepText": "商品不是物，而是在物的外壳下，生产者之间的一定的社会关系。",
+    "startTime": 355.555,
+    "endTime": 361.8,
+    "duration": 6.2450000000000045,
+    "srtStart": 136,
+    "srtEnd": 138,
+    "srtTexts": [
+      "商品不是物",
+      "而是在物的外壳下",
+      "生产者之间的一定的社会关系"
+    ]
+  },
+  {
+    "globalStep": 58,
+    "chapterId": "conclusion",
+    "stepIdx": 2,
+    "stepText": "人们互相交换商品，实际上是互相交换各自的劳动。",
+    "startTime": 361.8,
+    "endTime": 367,
+    "duration": 5.199999999999989,
+    "srtStart": 139,
+    "srtEnd": 140,
+    "srtTexts": [
+      "人们互相交换商品",
+      "实际上是互相交换各自的劳动"
+    ]
+  },
+  {
+    "globalStep": 59,
+    "chapterId": "conclusion",
+    "stepIdx": 3,
+    "stepText": "这就是商品真正隐藏的秘密。",
+    "startTime": 367,
+    "endTime": 369.4,
+    "duration": 2.3999999999999773,
+    "srtStart": 141,
+    "srtEnd": 141,
+    "srtTexts": [
+      "这就是商品真正隐藏的秘密"
+    ]
+  }
+]
