@@ -1,0 +1,150 @@
+/* ─── coldopen chapter ─── */
+.co-scene {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ─── step 0: exchange hook ─── */
+.co-step0 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+}
+
+.co-exchange-row {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.co-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.co-icon {
+  width: 120px;
+  height: 200px;
+}
+
+.co-label {
+  font-family: var(--font-body);
+  font-size: 22px;
+  color: var(--text);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+}
+
+.co-operator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.co-question-mark {
+  font-family: var(--font-display-en);
+  font-size: 80px;
+  font-style: italic;
+  color: var(--accent);
+  font-weight: 500;
+  animation: co-pulse 2.4s ease-in-out infinite;
+}
+
+@keyframes co-pulse {
+  0%, 100% { opacity: 0.35; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.08); }
+}
+
+.co-equals-line {
+  text-align: center;
+}
+
+.co-equals-text {
+  font-family: var(--font-display-cn);
+  font-size: 32px;
+  color: var(--text-mute);
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 12px;
+}
+
+/* ─── step 1: title reveal ─── */
+.co-step1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  text-align: center;
+}
+
+.co-rule-top,
+.co-rule-bottom {
+  width: 80px;
+  height: 1px;
+  background: var(--rule);
+}
+
+.co-title {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 160px;
+  line-height: 1;
+}
+
+.co-title-char {
+  font-family: var(--font-display-cn);
+  color: var(--text);
+  opacity: 0;
+  animation: co-reveal-char 1.2s var(--dur-base) ease-out forwards;
+}
+
+.co-char-1 {
+  animation-delay: 0.3s;
+}
+
+.co-char-2 {
+  animation-delay: 0.6s;
+}
+
+@keyframes co-reveal-char {
+  0% {
+    opacity: 0;
+    transform: translateY(24px);
+    filter: blur(6px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.co-subtitle {
+  font-family: var(--font-display-cn);
+  font-size: 28px;
+  color: var(--text-mute);
+  letter-spacing: 0.12em;
+  font-weight: 400;
+  margin: 0;
+  opacity: 0;
+  animation: co-reveal-sub 1s 2s ease-out forwards;
+}
+
+@keyframes co-reveal-sub {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

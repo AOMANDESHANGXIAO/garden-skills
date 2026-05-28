@@ -386,14 +386,23 @@ CSS, HTML, JS, and SVG are far more capable than most people realize — **use t
 
 ### Animation / Video Demos
 
-Choose animation approach by complexity, from simplest to heaviest — don't reach for a heavy library from the start:
+Choose animation approach by complexity — CSS first, GSAP when complexity scales:
 
 1. **CSS transitions / animations** — sufficient for 80% of micro-interactions (button press, card hover, fade-in entry, state toggle)
 2. **Simple React state + setTimeout / requestAnimationFrame** — simple frame-by-frame or event-driven animations
 3. **Custom `useTime` + `Easing` + `interpolate`** (full implementation in references) — timeline-driven video/demo scenes: scrubber, play/pause, multi-segment choreography
-4. **Fallback: Popmotion** (`https://unpkg.com/popmotion@11.0.5/dist/popmotion.min.js`) — only if the above three layers genuinely can't cover the use case
+4. **GSAP** — the go-to library for complex animation: multi-step sequencing, scroll-driven animation, SVG morphing/drawing, text effects, physics, drag, and timeline choreography. All plugins are now free (no license key, no Club GSAP tier). CDN: `https://cdn.jsdelivr.net/npm/gsap@3.x/dist/gsap.min.js`. When using GSAP, load the relevant GSAP skill on demand:
+   - **gsap-core** — tweens: `gsap.to()`, `from()`, `fromTo()`, eases, staggers, transforms (`x`/`y`/`scale`/`rotation`), `gsap.matchMedia()` for responsive/reduced-motion
+   - **gsap-timeline** — sequencing: `gsap.timeline()`, position parameter (`+=`, `<`, labels), nesting, playback control
+   - **gsap-scrolltrigger** — scroll-linked animations, pinning, scrub, `ScrollTrigger.batch()`, horizontal scroll with `containerAnimation`
+   - **gsap-react** — `useGSAP()` hook, refs, `gsap.context()`, `contextSafe()` for callbacks, SSR-safe patterns
+   - **gsap-plugins** — SplitText, Flip, Draggable, DrawSVG, MorphSVG, MotionPath, ScrollTo, ScrollSmoother, GSDevTools, and more
+   - **gsap-performance** — 60fps optimization: transforms/opacity, `will-change`, `gsap.quickTo()`, batching reads/writes
+   - **gsap-utils** — `clamp()`, `mapRange()`, `interpolate()`, `random()`, `snap()`, `distribute()`, `pipe()`, `wrap()`, `wrapYoyo()`
+   - **gsap-frameworks** — Vue/Nuxt/Svelte (non-React) integration: `gsap.context()`, lifecycle cleanup, selector scoping
+5. **Fallback: Popmotion** (`https://unpkg.com/popmotion@11.0.5/dist/popmotion.min.js`) — lightweight alternative when GSAP is overkill and layers 1–3 genuinely can't cover the use case
 
-> Avoid Framer Motion / GSAP / Lottie unless explicitly requested — bundle overhead, version conflicts, and React 18 inline Babel breakage. Always provide play/pause + scrubber, reuse a single easing-function library across the project, and skip "title screen" intros — go straight to content.
+> Always provide play/pause + scrubber for timeline-driven scenes, reuse a single easing-function library across the project, and skip "title screen" intros — go straight to content.
 
 ### Static Visual Comparison vs. Full Flow
 
@@ -491,3 +500,4 @@ Read on demand based on task type — don't preload everything:
 | User named an anchor ("Linear-style" / "Aesop feeling") → load **only that one file** | `references/style-recipes/<anchor>.md` (e.g., `linear.md`, `aesop.md`) |
 | Browse the recipe catalog / compare options after Direction Advisor picks a school | `references/style-recipes/INDEX.md` (3 indexes + cross-cutting anti-patterns; then read 1–3 specific recipe files) |
 | Critique mode — detailed scoring rubrics, per-output-type weighting, common-issue catalog (top 10) | `references/critique-guide.md` |
+| Animation-heavy / timeline-driven / scroll-driven / SVG / text-effect work — load GSAP skills on demand | `../gsap-core/SKILL.md`, `../gsap-timeline/SKILL.md`, `../gsap-scrolltrigger/SKILL.md`, `../gsap-react/SKILL.md`, `../gsap-plugins/SKILL.md`, `../gsap-performance/SKILL.md`, `../gsap-utils/SKILL.md`, `../gsap-frameworks/SKILL.md` |

@@ -1,0 +1,61 @@
+.vc-scene { width:100%;height:100%;display:flex;align-items:center;justify-content:center;padding:var(--stage-pad-y) var(--stage-pad-x); }
+.vc-cap { font-family:var(--font-body);font-size:20px;color:var(--text-mute);margin:0; }
+.vc-rule-wide { width:200px;height:1px;background:var(--rule); }
+
+.vc-step0 { display:flex;flex-direction:column;align-items:center;gap:28px; }
+.vc-two-circles { display:flex;align-items:center;gap:20px; }
+.vc-circle-label { font-family:var(--font-display-cn);font-size:44px;color:var(--text);font-weight:500;padding:20px 36px;border:1px solid var(--rule);border-radius:100px; }
+.vc-and { font-family:var(--font-display-en);font-size:36px;color:var(--text-faint);font-style:italic; }
+
+.vc-step1 { display:flex;align-items:center;justify-content:center; }
+.vc-unity { display:flex;flex-direction:column;align-items:center;gap:20px; }
+.vc-unity-big { font-family:var(--font-display-cn);font-size:56px;font-weight:700;color:var(--text); }
+.vc-unity-desc { font-family:var(--font-body);font-size:22px;color:var(--text-mute);margin:0; }
+.vc-overlap { margin-top:8px; }
+
+.vc-step2 { display:flex;flex-direction:column;align-items:center;gap:24px; }
+.vc-empty-box { opacity:.6; }
+.vc-waste { font-family:var(--font-display-cn);font-size:32px;color:var(--text-mute); }
+
+.vc-step3 { display:flex;flex-direction:column;align-items:center;gap:24px; }
+.vc-mirror { padding:28px 44px;border:1px solid var(--rule); }
+.vc-mirror-row { display:flex;align-items:center;gap:16px; }
+.vc-mirror-box { font-family:var(--font-display-cn);font-size:24px;padding:14px 24px;border:1px solid var(--rule);color:var(--text); }
+.vc-mirror-box.accent { border-color:var(--accent);color:var(--accent);background:var(--accent-soft); }
+.vc-mirror-arrow { color:var(--accent);font-family:var(--font-display-en);font-size:20px; }
+.vc-mirror-label { font-family:var(--font-body);font-size:18px;color:var(--text-mute); }
+
+.vc-step4 { display:flex;flex-direction:column;align-items:center;gap:20px; }
+
+.vc-step5 { display:flex;flex-direction:column;align-items:center;gap:28px; }
+.vc-contradiction-label { font-family:var(--font-display-cn);font-size:56px;font-weight:700;color:var(--accent); }
+.vc-split { display:flex;align-items:center;gap:0;border:1px solid var(--rule); }
+.vc-split-half { font-family:var(--font-display-cn);font-size:30px;padding:20px 36px;color:var(--text); }
+.vc-split-half.accent { color:var(--accent);font-weight:600; }
+.vc-split-divider { width:1px;height:40px;background:var(--accent); }
+
+.vc-step6 { display:flex;align-items:center;justify-content:center; }
+.vc-producer { display:flex;align-items:center;gap:36px; }
+.vc-producer-text { display:flex;flex-direction:column;gap:8px; }
+.vc-aim { font-family:var(--font-body);font-size:18px;color:var(--text-mute); }
+.vc-aim-big { font-family:var(--font-display-cn);font-size:42px;font-weight:700;color:var(--accent); }
+.vc-aim-sub { font-family:var(--font-body);font-size:20px;color:var(--text-mute); }
+
+.vc-step7 { display:flex;flex-direction:column;align-items:center;gap:20px; }
+.vc-meanstoend { display:flex;align-items:center;gap:20px;padding:28px 44px;border:1px solid var(--rule); }
+.vc-means { font-family:var(--font-display-cn);font-size:32px;color:var(--text-mute); }
+.vc-means-arrow { font-family:var(--font-display-en);font-size:28px;color:var(--accent); }
+.vc-end { font-family:var(--font-display-cn);font-size:32px;color:var(--accent);font-weight:600; }
+
+.vc-step8 { display:flex;align-items:center;justify-content:center; }
+.vc-either-or { display:flex;align-items:center;gap:24px; }
+.vc-either-box { display:flex;flex-direction:column;align-items:center;gap:8px;padding:24px 36px;border:1px solid var(--rule); }
+.vc-either-box.accent { border-color:var(--accent);border-width:2px; }
+.vc-either-label { font-family:var(--font-display-cn);font-size:28px;color:var(--text);font-weight:500; }
+.vc-either-desc { font-family:var(--font-body);font-size:17px;color:var(--text-mute); }
+.vc-either-or-text { font-family:var(--font-display-cn);font-size:22px;color:var(--accent);font-weight:600; }
+
+.vc-step9 { display:flex;align-items:center;justify-content:center; }
+.vc-final { display:flex;flex-direction:column;align-items:center;gap:24px; }
+.vc-final-text { font-family:var(--font-display-cn);font-size:46px;font-weight:600;color:var(--text); }
+.vc-final-label { font-family:var(--font-body);font-size:22px;color:var(--text-mute); }

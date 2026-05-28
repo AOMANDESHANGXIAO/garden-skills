@@ -1,0 +1,379 @@
+/* ─── use-value chapter ─── */
+.uv-scene {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--stage-pad-y) var(--stage-pad-x);
+}
+
+/* ─── shared rules ─── */
+.uv-rule-short {
+  width: 60px;
+  height: 1px;
+  background: var(--rule);
+}
+
+/* ─── Step 0: precondition ─── */
+.uv-step0 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+}
+
+.uv-statement {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.uv-em {
+  font-family: var(--font-display-cn);
+  font-size: 96px;
+  font-weight: 700;
+  color: var(--accent);
+  animation: uv-fade-up 0.8s ease-out both;
+}
+
+.uv-text {
+  font-family: var(--font-display-cn);
+  font-size: 40px;
+  color: var(--text);
+  font-weight: 400;
+  animation: uv-fade-up 0.8s 0.2s ease-out both;
+}
+
+.uv-hint {
+  font-family: var(--font-body);
+  font-size: 22px;
+  color: var(--text-mute);
+  margin: 0;
+  animation: uv-fade-up 0.8s 0.45s ease-out both;
+}
+
+@keyframes uv-fade-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── Step 1: examples ─── */
+.uv-step1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+
+.uv-examples {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.uv-ex-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.uv-ex-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.uv-ex-label {
+  font-family: var(--font-display-cn);
+  font-size: 32px;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.uv-ex-tag {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  padding: 4px 14px;
+  border: 1px solid var(--accent);
+  border-radius: 2px;
+}
+
+.uv-plus {
+  font-family: var(--font-display-en);
+  font-size: 36px;
+  color: var(--text-faint);
+  font-weight: 300;
+}
+
+.uv-def {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.uv-def-label {
+  font-family: var(--font-display-cn);
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.uv-def-desc {
+  font-family: var(--font-body);
+  font-size: 20px;
+  color: var(--text-mute);
+  letter-spacing: 0.06em;
+}
+
+/* ─── Step 2: without use value ─── */
+.uv-step2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.uv-crossed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.uv-cross-icon {
+  width: 140px;
+  height: 140px;
+}
+
+.uv-neq-big {
+  font-family: var(--font-display-cn);
+  font-size: 56px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: 0.04em;
+}
+
+.uv-cond {
+  font-family: var(--font-body);
+  font-size: 22px;
+  color: var(--text-mute);
+  margin: 0;
+  border-top: 1px solid var(--rule);
+  padding-top: 20px;
+}
+
+/* ─── Step 3: use value changes ─── */
+.uv-step3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.uv-shift-text {
+  position: relative;
+}
+
+.uv-shift-word {
+  font-family: var(--font-display-cn);
+  font-size: 80px;
+  font-weight: 700;
+  color: var(--text);
+  display: block;
+}
+
+.uv-shift-ghost {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  color: var(--accent-soft);
+  opacity: 0.5;
+  filter: blur(2px);
+  animation: uv-ghost-shift 3s ease-in-out infinite;
+}
+
+@keyframes uv-ghost-shift {
+  0%, 100% { transform: translate(0, 0); opacity: 0.3; }
+  50% { transform: translate(6px, 2px); opacity: 0.6; }
+}
+
+.uv-shift-sub {
+  font-family: var(--font-body);
+  font-size: 24px;
+  color: var(--text-mute);
+  margin: 0;
+}
+
+.uv-wave-line {
+  margin-top: 8px;
+}
+
+/* ─── Step 4: ancient & oil ─── */
+.uv-step4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+}
+
+.uv-scene-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 48px;
+}
+
+.uv-fig {
+  width: 100px;
+  height: 180px;
+}
+
+.uv-oil-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.uv-oil-icon {
+  width: 90px;
+  height: 50px;
+}
+
+.uv-oil-label {
+  font-family: var(--font-display-cn);
+  font-size: 28px;
+  color: var(--text-mute);
+  font-weight: 500;
+}
+
+.uv-caption {
+  font-family: var(--font-body);
+  font-size: 22px;
+  color: var(--text-mute);
+  margin: 0;
+  font-style: italic;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* ─── Step 5: industrial ─── */
+.uv-step5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 42px;
+}
+
+.uv-factory {
+  width: 160px;
+  height: 140px;
+}
+
+.uv-arrow-big {
+  font-family: var(--font-display-en);
+  font-size: 48px;
+  color: var(--accent);
+  font-weight: 300;
+}
+
+.uv-drop {
+  width: 60px;
+  height: 80px;
+}
+
+.uv-tagline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.uv-tagline-main {
+  font-family: var(--font-display-cn);
+  font-size: 52px;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+
+.uv-tagline-sub {
+  font-family: var(--font-body);
+  font-size: 22px;
+  color: var(--text-mute);
+}
+
+/* ─── Step 6: historical timeline ─── */
+.uv-step6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 52px;
+}
+
+.uv-sum-title {
+  font-family: var(--font-display-cn);
+  font-size: 62px;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+  letter-spacing: 0.04em;
+}
+
+.uv-timeline {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.uv-tl-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  min-width: 140px;
+}
+
+.uv-tl-label {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-faint);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.uv-tl-item {
+  font-family: var(--font-display-cn);
+  font-size: 22px;
+  color: var(--text);
+  font-weight: 500;
+  text-align: center;
+}
+
+.uv-tl-past .uv-tl-item {
+  color: var(--text-mute);
+}
+
+.uv-tl-future .uv-tl-item {
+  color: var(--text-mute);
+}
+
+.uv-tl-arrow {
+  display: flex;
+  align-items: center;
+}
+
+.uv-sum-text {
+  font-family: var(--font-body);
+  font-size: 24px;
+  color: var(--text-mute);
+  margin: 0;
+  text-align: center;
+  max-width: 700px;
+  line-height: 1.6;
+  border-top: 1px solid var(--rule);
+  padding-top: 28px;
+}
