@@ -1,18 +1,27 @@
+import type { PlaybackMode } from "../hooks/useAudioPlayer";
 import "./AutoStartGate.css";
 
 interface Props {
   visible: boolean;
   onStart(): void;
+  mode: PlaybackMode;
 }
 
-/**
- * Full-screen overlay shown ONCE when `?auto=1` is loaded. Browsers block
- * audio playback until the page receives a user gesture, so we show this
- * gate and let the user press Space (or click) to release auto playback.
- *
- * After the user starts, the gate is hidden for the rest of the session.
- */
-export function AutoStartGate({ visible, onStart }: Props) {
+const MODE_LABEL: Record<PlaybackMode, string> = {
+  manual: "",
+  audio: "",
+  auto: "AUTO PLAYBACK",
+  timeline: "TIMELINE PLAYBACK",
+};
+
+const MODE_DESC: Record<PlaybackMode, string> = {
+  manual: "",
+  audio: "",
+  auto: "Audio plays per step and advances automatically.",
+  timeline: "Slides advance automatically based on the transcript timeline.",
+};
+
+export function AutoStartGate({ visible, onStart, mode }: Props) {
   if (!visible) return null;
   return (
     <div
@@ -23,10 +32,10 @@ export function AutoStartGate({ visible, onStart }: Props) {
       tabIndex={0}
     >
       <div className="auto-gate-card">
-        <div className="auto-gate-kicker">AUTO PLAYBACK</div>
+        <div className="auto-gate-kicker">{MODE_LABEL[mode]}</div>
         <div className="auto-gate-title">Press SPACE to start</div>
         <div className="auto-gate-sub">
-          Audio plays per step and advances automatically.
+          {MODE_DESC[mode]}
           <br />
           Press <kbd>M</kbd> any time to switch modes.
         </div>

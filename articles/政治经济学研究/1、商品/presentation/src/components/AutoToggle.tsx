@@ -10,6 +10,7 @@ const LABEL: Record<PlaybackMode, string> = {
   manual: "MANUAL",
   audio: "AUDIO",
   auto: "AUTO",
+  timeline: "TIMELINE",
 };
 
 /**

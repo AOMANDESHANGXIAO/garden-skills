@@ -11,6 +11,7 @@ import { Stage } from "./components/Stage";
 import { useAudioPlayer } from "./hooks/useAudioPlayer";
 import { useAutoMode } from "./hooks/useAutoMode";
 import { useStepper } from "./hooks/useStepper";
+import { useTimelinePlayback } from "./hooks/useTimelinePlayback";
 import { CHAPTERS } from "./registry/chapters";
 
 /**
@@ -51,6 +52,17 @@ export default function App() {
     autoStarted,
   });
 
+  // Timeline playback (transcript-driven, no audio needed).
+  // The useTimelinePlayback hook is a no-op unless mode === "timeline"
+  // AND autoStarted === true. When active, it overrides audio-based
+  // timing — step duration is driven by the transcript timeline.
+  const timelineActive = mode === "timeline" && autoStarted;
+  useTimelinePlayback({
+    active: timelineActive,
+    cursor: stepper.cursor,
+    onAdvance: stepper.next,
+  });
+
   return (
     <>
       <Stage onAdvance={stepper.next}>
@@ -65,8 +77,9 @@ export default function App() {
       />
       <AutoToggle mode={mode} onCycle={cycleMode} />
       <AutoStartGate
-        visible={mode === "auto" && !autoStarted}
+        visible={(mode === "auto" || mode === "timeline") && !autoStarted}
         onStart={() => setAutoStarted(true)}
+        mode={mode}
       />
     </>
   );

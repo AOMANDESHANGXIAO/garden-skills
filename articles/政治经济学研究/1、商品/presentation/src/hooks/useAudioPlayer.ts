@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-export type PlaybackMode = "manual" | "audio" | "auto";
+export type PlaybackMode = "manual" | "audio" | "auto" | "timeline";
 
 interface Options {
   /** Audio file path. `null` = no audio for this step (silent). */
@@ -60,7 +60,7 @@ export function useAudioPlayer({
       audioRef.current = null;
     }
 
-    if (mode === "manual") return;
+    if (mode === "manual" || mode === "timeline") return;
     if (mode === "auto" && !autoStarted) return;
 
     let advanced = false;
